@@ -16,7 +16,7 @@ const Items = () => {
         },
         {
             image:"./11.jpg",
-            title:'СЕЛЬСКОХОЗЯЙСТВЕННЫЙ ХЛЕБ',
+            title:'ХОЗЯЙСТВЕННЫЙ ХЛЕБ',
             desc:'Sample text. Click to select the Text Element.',
             price:'5.25',
             isOrder:false,
