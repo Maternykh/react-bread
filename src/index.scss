@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Montserrat:wght@300&family=Rubik:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.Visit {
+    background-color: antiquewhite;
+    padding: 15%;
+    text-align: center;
+    .Visit-us {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 15%;
+    }
+    .visit-time {
+        font-size: 30px;
+        margin-bottom: 15%;
+    }
+    .visit-orange {
+      color: rgb(255, 117, 25);
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 10%;
+    }
+}
+.FullMenu {
+    text-align: center;
+    .fullmenu-image-cont {
+        position: relative;
+        background-color: black;
+        .fullmenu-image {
+            width: 100%;
+            opacity: 0.30;
+        }
+        .Fullmenu-title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 5%;
+            position: absolute;
+            color: white;
+            top: 30%;
+            left: 0;
+        }
+        .Fullmenu-desc {
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            top: 60%;
+            left: 0;
+            color: white;
+        }
+    }
+}
+.Messege {
+    background-color: rgb(255, 117, 25);
+    color: white;
+    padding: 10%;
+    text-align: center;
+    .phone {
+        background-color: white;
+        padding: 5%;
+        text-align: center;
+        width: 10%;
+        border-radius: 50%;
+        margin-left: 40%;
+        margin-bottom: 5%;
+        .phone-icon {
+            color: rgb(255, 117, 25);
+            font-size: 40px;
+            justify-content: center;
+            vertical-align: middle;
+        }
+    }
+    .answear {
+        font-size: 30px;
+        margin-bottom: 5%;
+    }
+}
+.orderer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 245, 189);
+    padding: 5%;
+    overflow-y: auto;
+    max-height: 95%;
+    z-index: 10;
+    width: 90%;
+    .orderer-element {
+        background-color: white;
+        padding: 4%;
+        border-radius: 30px;
+        margin-bottom: 5%;
+        .flex {
+            display: flex;
+            justify-items: flex-start;
+            .orderer-title {
+                padding: 5%;
+                font-weight: bold;
+            }
+            .orderer-price {
+                padding: 5%;
+                font-weight: bold;
+                color: rgb(255, 117, 25);
+            }
+            .orderer-item-img {
+                width: 25%;
+                .orderer-item-image {
+                    width: 100%;
+                }
+            }
+        }
+       
+    }
+}
+.Items {
+    padding: 10%;
+    .cors {
+        border: 2px solid rgb(0, 0, 0);
+        padding: 3%;
+        border-radius: 20px;
+        position: fixed;
+        top: 90%;
+        left: 85%;
+        background-color: white;
+        transition: all ease 500ms;
+        z-index: 13;
+        &:hover {
+            background-color: black;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .tbbasc {
+            font-size: 30px;
+        }
+    }
+    .element {
+        margin-bottom: 10%;
+        .item-img {
+            text-align: center;
+        }
+        .item-title {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 2%;
+        }
+        .item-desc {
+            text-align: center;
+            font-size: 20px;
+            color: rgb(84, 84, 84);
+            margin-bottom: 2%;
+        }
+        .item-price {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 2%;
+            color: rgb(255, 117, 25);
+        }
+        .item-buy {
+            border: 4px solid rgb(255, 117, 25);
+            border-radius: 30px;
+            padding: 2%;
+            text-align: center;
+            font-size: 20px;
+            transition: all ease 500ms;
+            &:hover {
+                background-color: rgb(255, 117, 25);
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.StartItems {
+    padding: 10%;
+}
+.Mission {
+    background: url(9.jpg);
+    background-repeat:repeat;
+    padding: 10%;
+    margin-bottom: 5%;
+    .mission-white-fon {
+        border-radius: 30px;
+        background-color: white;
+        padding: 10%;
+        .mission-title {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+        .mission-desc {
+            font-size: 20px;
+        }
+    }
+}
+.Ponti {
+    padding: 10%;
+}
+.pon-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2%;
+    text-align: center; 
+    margin-bottom: 5%;
+}
+.pon-desc {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.Advviv {
+    padding: 10%;
+}
+.Adv {
+    background-color: rgb(255, 117, 25);
+    padding: 5%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    color: white;
+    .advviv-num {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+    .advviv-title {
+        font-size: 25px;
+    }
+}
+.Desctext {
+    .desct-text-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+    .desc-desc-desc {
+        font-size: 20px;
+        color: rgb(94, 94, 94);
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+}
+.ArrUsl {
+    background-color: rgb(255, 220, 144);
+    padding: 10%;
+}
+.Desc {
+    background-color: rgb(255, 221, 146);
+    padding: 10%;
+    .desc-image-div {
+        text-align: center;
+        .desc-image {
+            border-radius: 50%;
+            width: 70%;
+        }
+    }
+}
+.ArrViv {
+    background-color: white;
+    padding: 10%;
+    margin-bottom: 20%;
+    border-radius: 30px;
+    .arrviv-fulldesc {
+        text-align: center;
+        color: rgb(255, 102, 0);
+        font-size: 25px;
+        text-decoration: underline;
+        margin-bottom: 2%;
+        &:hover {
+            color: rgba(255, 102, 0, 0.588);
+            cursor: pointer;
+        }
+    }
+    .arrviv-fulldesc-desc {
+        opacity: 0;
+        animation: ani 1s forwards;
+        font-size: 25px;
+    }
+    @keyframes ani {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+    .arriv-desc {
+        font-size: 20px;
+        color: rgb(94, 94, 94);
+        margin-bottom: 5%;
+    }
+    .arrviv-img {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .arrviv-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+}
+.Uslugi {
+    .usl-image {
+        background-color: black;
+        position: relative;
+        .usl-text {
+            color: white;
+            position: absolute;
+            z-index: 2;
+            top: 45%;
+            left: 30%;
+            font-size: 40px;
+        }
+        .usl-image-image {
+            width: 100%;
+            opacity: 0.70;
+            z-index: 1;
+        }
+    }
+}
+.pressbutt {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    padding: 5%;
+    border-radius: 30px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20%;
+    transition: all ease 500ms;
+    &:hover {
+        cursor: pointer;
+        background-color:black
+    }
+}
+.Presstext {
+    background-color: rgb(255, 221, 146);
+    padding: 8%;
+    .press-desc {
+        padding: 5%;
+        font-size: 20px;
+        color: rgb(94, 94, 94);
+    }
+    .press-zag {
+        color: rgb(255, 102, 0);
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+.pres-image {
+    background-color: rgb(255, 221, 146);
+    .pres-image-image {
+        width: 100%;
+    }
+}
+
+.aside {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 5.3%;
+    padding: 2%;
+    z-index: 9;
+    border-radius: 0px 0px 30px 0px;
+    .href {
+        margin-top: 100%;
+    .ssilk {
+        font-size: 20px;
+        text-decoration: none;
+        transition: all ease 500ms;
+        color: black;
+        &:hover {
+            color: rgb(255, 179, 0);
+        }
+        .icon {
+            font-size: 40px;
+        }
+    }
+    }
+}
+.Header {
+    background-color: rgb(255, 255, 255);
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 80%;
+    z-index: 9;
+    .logo  {
+        font-size: 30px;
+        color: rgb(157, 157, 157);
+    }
+    .menu {
+        font-size: 33px;
+        vertical-align: middle;
+        transition: all ease 500ms;
+        &:hover {
+            color:green ;
+            cursor: pointer;
+            transform: scale(1.20);
+        }
+    }
+}
