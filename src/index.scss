@@ -180,21 +180,30 @@ body {
     padding: 10%;
 }
 .Mission {
-    background: url(18.jpg);
-    background-repeat:repeat;
-    padding: 10%;
     margin-bottom: 5%;
     .mission-white-fon {
-        border-radius: 30px;
-        background-color: white;
-        padding: 10%;
+        position: relative;
+        background-color: black;
+        .miss-image {
+            width: 100%;
+            opacity: 0.50;
+        }
         .mission-title {
             font-size: 30px;
             text-align: center;
             margin-bottom: 5%;
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            color: white;
         }
         .mission-desc {
             font-size: 20px;
+            position: absolute;
+            top: 40%;
+            left: 5%;
+            right: 5%;
+            color: white;
         }
     }
 }
@@ -309,7 +318,7 @@ body {
             color: white;
             position: absolute;
             z-index: 2;
-            top: 30%;
+            top: 35%;
             left: 20%;
             font-size: 40px;
         }
